@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Restaurant Website</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+    <header>
+            <div class="navbar">
+                <img class="logo" src="resto.png"></img>
+            <!-- Hamburger Icon -->
+          
+            <!-- Menu Links -->
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <div class="navbar-extra">
+                    <a href="#" id="search"><i data-feather="search"></i></a>
+                    <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+            </div>
+    </header>
+
+    <section id="home">
+        <h1 class="h-1">fre<span class="elegan">sco</span></h1>
+        <p class="p-1">cafe & restaurant</p>
+    </section>
+
+    <section id="menu">
+            <img class="topi" src="topi.png" height="200" width="200"></img>
+            <h2 class="h-2">Fresco <span class="span">Menu</span></h2>
+            <img src="menu.png" width="100%" height="200%"></img>
+    </section>
+
+    <section id="gallery">
+        <h2 class="frame">Gallery</h2>
+        <div class="galeri">
+            <img class="foto-1" src="https://parboaboa.com/data/foto_berita/resep_smoothie_bowl_u.webp" width="320" height="200" alt="https://parboaboa.com/data/foto_berita/resep_smoothie_bowl_u.webp 1"></img>
+            <img class="foto-2" src="https://th.bing.com/th/id/OIP.Ynmibhc0SlCs8KWVDTVw7wHaFL?rs=1&pid=ImgDetMain" width="320" height="200" alt="https://th.bing.com/th/id/OIP.Ynmibhc0SlCs8KWVDTVw7wHaFL?rs=1&pid=ImgDetMain 2"></img>        
+            <img class="foto-3" src="https://media-cdn.tripadvisor.com/media/photo-s/12/f8/96/2c/margherita-pizza.jpg" width="320" height="200" alt="https://media-cdn.tripadvisor.com/media/photo-s/12/f8/96/2c/margherita-pizza.jpg 3"></img>
+            <img class="foto-4" src="chef.jpg" width="200" height="300" alt="chef 4"></img>
+            <img class="foto-5" src="minum.png" width="200" height="300"alt="minum 5"></img>
+            <img class="foto-6" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/1c/9a/ef/risotto-rock-lobster.jpg?w=1000&h=-1&s=1" width="200" height="300" alt="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/1c/9a/ef/risotto-rock-lobster.jpg?w=1000&h=-1&s=1 6"></img>
+            <img class="foto-7" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/67/b9/64/upcoming-dessert-with.jpg?w=1000&h=-1&s=1" width="320" height="200" alt="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/67/b9/64/upcoming-dessert-with.jpg?w=1000&h=-1&s=1 7"></img>
+            <img class="foto-8" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/72/76/cb/photo0jpg.jpg?w=1000&h=-1&s=1" width="320" height="200" alt="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/72/76/cb/photo0jpg.jpg?w=1000&h=-1&s=1 8"></img>
+        </div>
+        <p class="frame-2">Take a look at our beautiful restaurant and dishes.</p>
+    </section>
+
+    <section id="about">
+        <h2 class="tentang">About Us</h2>
+        <img class="makanan" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/93/99/21/specially-crafted-by.jpg?w=1000&h=-1&s=1" width="700" height="500"></img>
+        <p class="desk">Located in the heart of Legian, Fresco Bandung is serving up the freshest seasonal fare with a focus on
+            locally-sourced produce and markets. Our head chef sources only the freshest ingredients that have been grown in
+            Bandung using well-established organic methods for an array of healthy and delectable fresh dishes. We're open
+            daily for breakfast, lunch, dinner from 8am to 10:00pm and reservations are recommended as we do get busy.</p>
+    </section>
+
+    <section id="contact">
+        <div class="kontak">
+            <h2 class="kontak-1">Contact Us</h2>
+            <p class="kontak-2">Send Message</p>
+        </div>
+        <div class="kontak-3">
+            <h1 class="info">Contanct Info</h1>      
+            <p ><i data-feather="map-pin" width="40" height="50" class="lokasi"></i><span class="lok">Location</span></p>
+            <p ><i data-feather="clock" width="40" height="50" class="open"></i><span class="buka">Open</span></p>
+            <p ><i data-feather="message-circle" width="45" height="50" class="hub"></i><span class="hubungi">Get In Touch</span></p>
+            <p class="addr">Jl. H.O.S. Tjokroaminoto no. 41-43, Hilton Bandung, 6th Floor 40172 Bandung</p>
+            <p class="time">08.00am - 10.00pm</p>
+        </div class="kontak-4">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fresco Cafe & Restaurant. All rights reserved.</p>
+    </footer>
+    <script>
+        feather.replace();
+
+        const images = [
+            'https://media-cdn.tripadvisor.com/media/photo-s/10/6a/44/f5/fresco-with-cabana-view.jpg', 
+            'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/d1/67/f3/caption.jpg?w=1000&h=-1&s=1',
+            'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/a3/3e/22/lasagna.jpg?w=1000&h=-1&s=1',
+            'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/4d/f3/10/enjoy-a-little-italian.jpg?w=1200&h=-1&s=1',
+            'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/d0/99/0d/fresco-restaurant.jpg?w=1000&h=-1&s=1'
+        ];
+
+        let currentIndex = 0;
+        const sectionHome = document.querySelector('#home');
+
+        function changeBackgroundImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            sectionHome.style.backgroundImage = `url('${images[currentIndex]}')`;
+        }
+
+        setInterval(changeBackgroundImage, 5000);
+
+        const navbarNav = document.querySelector ('.nav-links');
+        document.querySelector('#hamburger-menu'). onclick = () => {
+            navbarNav.classList.toggle('active');
+        };
+
+      </script>
+</body>
+</html>
